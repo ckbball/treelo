@@ -13,9 +13,6 @@ const BoardSchema = new mongoose.Schema(
         boardMembers: {
             type: [String],
         },
-        boardLists: {
-            type: [String],
-        },
         isPublic: {
             type: Boolean,
             default: true,

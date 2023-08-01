@@ -15,9 +15,6 @@ const ListSchema = new mongoose.Schema(
             default: 0,
             required: true,
         },
-        cards: {
-            type: [String],
-        },
     },
     { timestamps: true }
 );
